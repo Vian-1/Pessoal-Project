@@ -1,4 +1,4 @@
 # Pessoal-Project
 
-Acesse aqui o meu<a href="https://amandalima1.github.io/projetos\clone-netflix/index.html">Pessoal Project</a>
+Acesse aqui o meu <a href="https://vian-1.github.io/Pessoal-Project/">Pessoal Project</a>
  
