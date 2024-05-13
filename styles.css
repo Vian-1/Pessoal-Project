@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style:none ;
+}
+
+body {
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: round;
+    background: rgb(147, 116, 199);
+background: linear-gradient(0deg, rgb(3, 3, 3) 0%, rgb(61, 61, 61) 43%);
+
+
+}
+
+body * {
+    font-family: 'inter', sans-serif;
+    line-height: 160%;
+}
+
+header {
+    padding-top: 32px;
+    height: calc(120 + 32);
+}
+
+header div {
+    width: 129px;
+    margin: auto;
+    background-image: linear-gradient(260deg, rgb(255, 255, 255) 0%, rgba(70,150,245,1) 100%);
+    border-radius: 50%;
+
+    display: flex;
+    padding: 4px;
+
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%; 
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;  
+}
+
+section {
+    color: white;
+    background: rgb(250,114,174);
+    background: linear-gradient(90deg, rgb(70,150, 245,1) 0%, rgba(70,150,245,1) 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+ 
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: white;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.2);
+}
+    
+.games-list img {
+    width: 72px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.streamers-list img {
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #9572FC;
+
+}
+
+.social-medias img{
+    width: 50px;
+    
+}
